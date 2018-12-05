@@ -15,8 +15,20 @@ header{
     header {height: 100px;}
 }
 
+#centre{
+    overflow: hidden;
+}
+
 nav{
-    height: 150px;
+    height: 200px;
+    width: 150px;
     background-color: aquamarine;
-    display: none;
+    display: block;
+    float: left;
+}
+
+#main{
+    width: 80%;
+    display: inline-block;
+    background-color: bisque;
 }
