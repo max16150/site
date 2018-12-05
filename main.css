@@ -51,10 +51,10 @@ html, body {
     right: 0;
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 699px) {
     .pc {display: none;}
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 700px) {
     .pc {display: block;}
 }
