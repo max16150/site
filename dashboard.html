@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dashboard.css">
     <script type="text/javascript">
         //<!--
                 function ffalse()
@@ -28,8 +28,27 @@
         </script>
 
 </head>
-<body style="margin: 0; padding: 0;">
-    
+<body>
+    <script>
+        function showDiv() {
+            var x = document.getElementById("navbarbutton");
+            if (x.style.display === 'none'){
+                x.style.display = 'block';}
+            else {
+                x.style.display = 'none';}
+        }
+    </script>
+    <header>
+    <input type="button" onclick="showDiv()">lol</button>
+    </header>
+    <div>
+        <nav id="navbarbutton">
+        lol
+        </nav>
+        <div id="main">
+        
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aqua;
+}
+
+@media all and (max-width: 699px) {
+    header {height: 60px;}
+}
+
+@media all and (min-width: 700px) {
+    header {height: 100px;}
+}
+
+nav{
+    height: 150px;
+    background-color: aquamarine;
+    display: none;
+}
