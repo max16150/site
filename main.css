@@ -50,3 +50,11 @@ html, body {
     opacity: 1;
     right: 0;
 }
+
+@media all and (max-width: 479px) {
+    .pc {display: none;}
+}
+
+@media all and (min-width: 480px) {
+    .pc {display: block;}
+}
