@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<?php
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=mineserv', 'root', '');
+
+
+?>
+
 <html lang="fr">   
 <head>
     
@@ -7,8 +14,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="dashboard.css">
-    <script type="text/javascript">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+        <script type="text/javascript">
         //<!--
                 function ffalse()
                 {
@@ -26,28 +33,34 @@
                 }
         //-->
         </script>
+        <script type="text/javascript">
+            document.getElementById("navbarbutton").style.width = "300px";
+        </script>
 
 </head>
 <body>
-    <script>
+    <script type="text/javascript">
         function showDiv() {
-            var x = document.getElementById("navbarbutton");
-            if (x.style.display === 'none'){
-                x.style.display = 'block';}
+            if (document.getElementById("navbarbutton").style.width == "5vw") {
+            
+                document.getElementById("navbarbutton").style.width = "10vw";
+            }
             else {
-                x.style.display = 'none';}
-        }
+                document.getElementById("navbarbutton").style.width = "5vw";
+            }
     </script>
+
     <header>
-    <input type="button" onclick="showDiv()">lol</button>
+    
     </header>
     <div id="centre">
         <nav id="navbarbutton">
-        lol
+        <input type="button" onclick="showDiv()">
         </nav>
         <div id="main">
         lol
         </div>
+        <p id="demo">lol</p>
     </div>
 </body>
 

@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-color: aqua;
+    background-color: aquamarine;
 }
 
 @media all and (max-width: 699px) {
@@ -19,10 +19,9 @@ header{
     overflow: hidden;
 }
 
-nav{
-    height: 200px;
-    width: 150px;
-    background-color: aquamarine;
+#navbarbutton{
+    height: 100vh;
+    background-color: blue;
     display: block;
     float: left;
 }
